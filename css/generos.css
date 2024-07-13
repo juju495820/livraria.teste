@@ -1,0 +1,84 @@
+*{
+  margin: 0; padding:0;
+  margin:-2px; padding:-20px;;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline:none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+  justify-content: space-between;
+}
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+body{
+  background-color: rgb(0, 0, 0); /* color para o fundo da pagina*/
+}
+header{
+  position: fixed;
+  top:0; left: 0; right: 0;
+  background: rgba(0, 0, 0, 0.973); /*para o fundo do menu*/
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 ,5rem 1rem rgba(0, 0, 0, 0.1);
+}
+header .logo span{
+  color:var(rgb(0, 0, 0));
+
+}
+header .navbar a{
+  font-size: 2rem;
+  padding: 0 1.5rem;
+  color:rgb(255, 255, 255); /*para as letras do menu*/
+}
+header .navbar a:hover{
+  color:var(blueviolet);
+}
+header .ícons a{
+  font-size: 2.5rem;
+  color:rgb(255, 255, 255); /*para os icons*/
+  margin-left: 1.5rem;
+}
+header .ícons a:hover{
+  color:var(rgb(255, 255, 255));
+}
+header #toggler{
+  display: none;
+}
+header .fa-bars{
+  font-size: 3rem;
+  color: black;
+  border-radius: .5rem;
+  padding: 5rem 1.5rem;
+  cursor:pointer;
+  border:.1rem solid blueviolet;
+  display: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 250px;
+  }
+  h2{
+    color: white;
+    font-size: 18px;
+    text-align: 1000px;
+    padding: 150px;
+  }
+  .generos{
+    color:white;
+  }
